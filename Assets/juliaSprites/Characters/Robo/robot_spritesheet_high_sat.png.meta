@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 1bb2d8853597749a5a993b8b9dd938a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: robot_spritesheet_high_sat_0
+  - first:
+      213: 21300002
+    second: robot_spritesheet_high_sat_1
+  - first:
+      213: 21300004
+    second: robot_spritesheet_high_sat_2
+  - first:
+      213: 21300006
+    second: robot_spritesheet_high_sat_3
+  - first:
+      213: 21300008
+    second: robot_spritesheet_high_sat_6
+  - first:
+      213: 21300010
+    second: robot_spritesheet_high_sat_7
+  - first:
+      213: 21300012
+    second: robot_spritesheet_high_sat_8
+  - first:
+      213: 21300014
+    second: robot_spritesheet_high_sat_9
+  - first:
+      213: 21300016
+    second: robot_spritesheet_high_sat_12
+  - first:
+      213: 21300018
+    second: robot_spritesheet_high_sat_13
+  - first:
+      213: 21300020
+    second: robot_spritesheet_high_sat_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1956
+        width: 438
+        height: 792
+      alignment: 9
+      pivot: {x: 0.7544153, y: 0.21860111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a743326e94332496caa561fb8c2f1b44
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_1
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2127
+        width: 322
+        height: 621
+      alignment: 9
+      pivot: {x: 0.3269659, y: 0.81810266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb1ed509e43c42bdad0b0cea94ad164
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2155
+        width: 466
+        height: 593
+      alignment: 9
+      pivot: {x: 0.2391326, y: 0.79895616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc066fc529acb4423bc57b8872dbcd83
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_3
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1976
+        width: 567
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee722aecbc50f4345a29d2f43c876f03
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1598
+        width: 300
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef92b99a196b48a8af8ab59744d6920
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_7
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1683
+        width: 649
+        height: 256
+      alignment: 9
+      pivot: {x: 0.11757534, y: 0.4010706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f442f1afcb574f6880aa71a1c8ecde5
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_8
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1469
+        width: 577
+        height: 345
+      alignment: 9
+      pivot: {x: 0.1751965, y: 0.6908617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdafb6199d7f64ebbb413cabed41711a
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 560
+        width: 340
+        height: 718
+      alignment: 9
+      pivot: {x: 0.63407797, y: 0.90211016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08714bf1dc15d407aa526ce3d7c162c8
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 599
+        width: 333
+        height: 683
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.90046763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb83421ae895840a786db2c0a170fb0e
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_13
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 516
+        width: 178
+        height: 816
+      alignment: 9
+      pivot: {x: 0.5569115, y: 0.8972687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c642604562b144da897b2247d591c88
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_high_sat_14
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 540
+        width: 172
+        height: 767
+      alignment: 9
+      pivot: {x: 0.49999928, y: 0.9094404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827ec51df67e0462985f30e24abb02e9
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b6952fb53d79543aaa0df3a529a5662f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

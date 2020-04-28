@@ -1,0 +1,1360 @@
+fileFormatVersion: 2
+guid: f6526dd48a148463e9bd14597db5a626
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5680781702007655005
+    second: just-alph-light_0
+  - first:
+      213: -8231749793557908446
+    second: just-alph-light_1
+  - first:
+      213: -2497745108693324810
+    second: just-alph-light_2
+  - first:
+      213: -8097694695991516085
+    second: just-alph-light_3
+  - first:
+      213: 4803448114903531707
+    second: just-alph-light_4
+  - first:
+      213: 4394285256224883605
+    second: just-alph-light_5
+  - first:
+      213: 138044769425664137
+    second: just-alph-light_6
+  - first:
+      213: -6736717207077060338
+    second: just-alph-light_7
+  - first:
+      213: -9030205764484831158
+    second: just-alph-light_8
+  - first:
+      213: 3361051116108507297
+    second: just-alph-light_9
+  - first:
+      213: 2661686461444854509
+    second: just-alph-light_10
+  - first:
+      213: -5421755499386028374
+    second: just-alph-light_11
+  - first:
+      213: -4047606066083027133
+    second: just-alph-light_12
+  - first:
+      213: 5503492128858636274
+    second: just-alph-light_13
+  - first:
+      213: -525389335220683648
+    second: just-alph-light_14
+  - first:
+      213: 2734775634265841837
+    second: just-alph-light_15
+  - first:
+      213: -8908534513843363174
+    second: just-alph-light_16
+  - first:
+      213: -8674212476983942581
+    second: just-alph-light_17
+  - first:
+      213: -1656546564256547142
+    second: just-alph-light_18
+  - first:
+      213: 8411587957188055596
+    second: just-alph-light_19
+  - first:
+      213: 5382448591260000667
+    second: just-alph-light_20
+  - first:
+      213: 2864949942476882168
+    second: just-alph-light_21
+  - first:
+      213: -2789505053014446676
+    second: just-alph-light_22
+  - first:
+      213: 4752176637062741383
+    second: just-alph-light_23
+  - first:
+      213: -1442404905621761756
+    second: just-alph-light_24
+  - first:
+      213: -3266862950254306341
+    second: just-alph-light_25
+  - first:
+      213: 3021510481340450514
+    second: just-alph-light_26
+  - first:
+      213: -5844243355553042237
+    second: just-alph-light_27
+  - first:
+      213: 8561325898971329260
+    second: just-alph-light_28
+  - first:
+      213: 7666200320250691534
+    second: just-alph-light_29
+  - first:
+      213: -2755846449986638941
+    second: just-alph-light_30
+  - first:
+      213: -9162608574662139927
+    second: just-alph-light_31
+  - first:
+      213: 6627056626600557540
+    second: just-alph-light_32
+  - first:
+      213: -847968459210692889
+    second: just-alph-light_33
+  - first:
+      213: -6731383582807169677
+    second: just-alph-light_34
+  - first:
+      213: -2418249303288010361
+    second: just-alph-light_35
+  - first:
+      213: -5690736807307066821
+    second: just-alph-light_36
+  - first:
+      213: 4178393261457316620
+    second: just-alph-light_37
+  - first:
+      213: -7639822755301788653
+    second: just-alph-light_38
+  - first:
+      213: 2096203544629047214
+    second: just-alph-light_39
+  - first:
+      213: 625818091659693611
+    second: just-alph-light_40
+  - first:
+      213: -3877649263810112714
+    second: just-alph-light_41
+  - first:
+      213: -4999552355177470247
+    second: just-alph-light_42
+  - first:
+      213: -8138978349816579611
+    second: just-alph-light_43
+  - first:
+      213: 9006717329380678132
+    second: just-alph-light_44
+  - first:
+      213: -4002144864265749281
+    second: just-alph-light_45
+  - first:
+      213: 2686172675653624469
+    second: just-alph-light_46
+  - first:
+      213: 5747280748462001627
+    second: just-alph-light_47
+  - first:
+      213: -1292490535278196977
+    second: just-alph-light_48
+  - first:
+      213: 1277455646223048773
+    second: just-alph-light_49
+  - first:
+      213: 6782111101808067349
+    second: just-alph-light_50
+  - first:
+      213: -8043054073726184229
+    second: just-alph-light_51
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: just-alph-light_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1545
+        width: 309
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a401cb9f1164f4aaf6c78df178edc6
+      internalID: -5680781702007655005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1545
+        width: 267
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ad130ab32664fd7b65f679df1ea957
+      internalID: -8231749793557908446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1551
+        width: 278
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8044f39b499438c859df6bc6a6b7f3
+      internalID: -2497745108693324810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_3
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1561
+        width: 222
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d789de2aba0c4e52afcc4e197ba2d08
+      internalID: -8097694695991516085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_4
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1567
+        width: 268
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52154b3f2c1544d8a5abfbfa6edc9f9
+      internalID: 4803448114903531707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_5
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1567
+        width: 199
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5171e4ec8ad48a18765c639024a5d9
+      internalID: 4394285256224883605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_6
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1573
+        width: 251
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003d336916d63405db8f87d9550bf680
+      internalID: 138044769425664137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_7
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1586
+        width: 212
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40fcc96194824ce9ac9884757013295
+      internalID: -6736717207077060338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_8
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1576
+        width: 222
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6acaa5ff04da47d791d3e85ce1bc64d
+      internalID: -9030205764484831158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_9
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1566
+        width: 222
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337ab0cb4b45e49dc8dd386cf90eeb31
+      internalID: 3361051116108507297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_10
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 1563
+        width: 212
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c0249ca7e6342ff86b098ca43f7d72
+      internalID: 2661686461444854509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_11
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 1550
+        width: 235
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4240e87cab048baa052d1e98cb223f
+      internalID: -5421755499386028374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1217
+        width: 320
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339112ba9e80046bd9cfc82dc854087c
+      internalID: -4047606066083027133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1207
+        width: 245
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59f8432588ac407eb58358f0918a714
+      internalID: 5503492128858636274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1210
+        width: 255
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d389ff79b154bf481f786b78968c2c
+      internalID: -525389335220683648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_15
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1207
+        width: 265
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251d6d7c63ab04d118535f618a070f6e
+      internalID: 2734775634265841837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_16
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1217
+        width: 141
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f201dd9253414543a1474daa16d22dd
+      internalID: -8908534513843363174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_17
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1204
+        width: 138
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a7c17ad03b24c74ae8bf4cd2d589f3
+      internalID: -8674212476983942581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_18
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1220
+        width: 267
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f98291dd203040b49201c17740b381d
+      internalID: -1656546564256547142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_19
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1230
+        width: 173
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47295aec66c514add91e0d14bbae3baf
+      internalID: 8411587957188055596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_20
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 1227
+        width: 294
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac238253ac6f04a7487e0386942781f4
+      internalID: 5382448591260000667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_21
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1223
+        width: 241
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6f920cf26ce40aea8e30cccfd6d5c4
+      internalID: 2864949942476882168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_22
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 1233
+        width: 219
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3aabf324f804a39be044b7e1c46e71
+      internalID: -2789505053014446676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_23
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 1217
+        width: 154
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52086c2202df48a090e65989c4b0a61
+      internalID: 4752176637062741383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 779
+        width: 506
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af62dcac48df24bda9ad2f60966de31e
+      internalID: -1442404905621761756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 809
+        width: 428
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f16fb08b0d14b1aa0d98182c674f51
+      internalID: -3266862950254306341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_26
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 822
+        width: 313
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afec35740506497c95f9ef60e5e2a2b
+      internalID: 3021510481340450514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_27
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 815
+        width: 231
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c46e94e102ea4a32bbb2f0287273bac
+      internalID: -5844243355553042237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_28
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 822
+        width: 304
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98efe39a498994af884a7b75ca8a3af1
+      internalID: 8561325898971329260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_29
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 825
+        width: 212
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a5accbbe65b4e85ab39b21152e352f
+      internalID: 7666200320250691534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_30
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 848
+        width: 268
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1add4a8fc10f42cb80f69489b179d28
+      internalID: -2755846449986638941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_31
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 854
+        width: 203
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54b5b83e8f5f420a86413249a5f5c99
+      internalID: -9162608574662139927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_32
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 874
+        width: 314
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c2c69d7c7904f80920fc391767e9e0
+      internalID: 6627056626600557540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_33
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 822
+        width: 284
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b2123f15f9a428f99925db507fc021
+      internalID: -847968459210692889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_34
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 394
+        width: 314
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c3abba5d7f7413c8f398358167bea2
+      internalID: -6731383582807169677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_35
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 437
+        width: 212
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5eb449513354db8bccf5a954b89f85
+      internalID: -2418249303288010361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_36
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 430
+        width: 314
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01721ae0828f4c70aa9e58744b20b59
+      internalID: -5690736807307066821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_37
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 440
+        width: 219
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f970b59e26064a4cafbb17419ee88e5
+      internalID: 4178393261457316620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_38
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 469
+        width: 287
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fca5eee2e13541ef8d82d9639f60cb3
+      internalID: -7639822755301788653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_39
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 466
+        width: 228
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec0326eefd4c442f91a1928efc72770
+      internalID: 2096203544629047214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_40
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 466
+        width: 239
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9471af0038a34d40be6e517595f8381
+      internalID: 625818091659693611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_41
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 466
+        width: 209
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db942ab9629104374a13bc1a083c1d8e
+      internalID: -3877649263810112714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_42
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 482
+        width: 320
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6f60ba8e2a04006a7a4da787c6eb69
+      internalID: -4999552355177470247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_43
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 531
+        width: 232
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ad30aa52c1d4392bc9f25dddf4b414
+      internalID: -8138978349816579611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_44
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 505
+        width: 433
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ccde8d1d54d4524a34e7cdc3e24ad9
+      internalID: 9006717329380678132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_45
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 512
+        width: 362
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059d4a9ee65a54827a0d1316124dd228
+      internalID: -4002144864265749281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_46
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 27
+        width: 454
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda2ad8898c2d40dd946a898571e852b
+      internalID: 2686172675653624469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 85
+        width: 317
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2365e4e040c934117a61c933cce8335d
+      internalID: 5747280748462001627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_48
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 66
+        width: 316
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbafe594fca7d4d24836d64737d005fe
+      internalID: -1292490535278196977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_49
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 76
+        width: 288
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee52a225142342748f57c7d47d8b700
+      internalID: 1277455646223048773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_50
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 79
+        width: 320
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26395114d5a4e404399eb5b178e3cea0
+      internalID: 6782111101808067349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: just-alph-light_51
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 99
+        width: 294
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110ec8911f8d44073bfcb180d6d6a90f
+      internalID: -8043054073726184229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 482c21a387bd24ecf888dd8527038980
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

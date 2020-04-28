@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 96654c31154074bcf8f3f96c49fbbb60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: left forearm back
+  - first:
+      213: 21300002
+    second: left forearm front
+  - first:
+      213: 21300004
+    second: right upperarm
+  - first:
+      213: 21300006
+    second: bronto boddo
+  - first:
+      213: 21300008
+    second: bronto noggin
+  - first:
+      213: 21300010
+    second: left upperarm
+  - first:
+      213: 21300012
+    second: Left Calf
+  - first:
+      213: 21300014
+    second: Right calf
+  - first:
+      213: 21300016
+    second: BRonto Spritesheet copy_8
+  - first:
+      213: 21300018
+    second: left thigh
+  - first:
+      213: 21300020
+    second: Right thigh
+  - first:
+      213: 21300022
+    second: Right forearm front
+  - first:
+      213: 21300024
+    second: Right forearm back
+  - first:
+      213: 21300026
+    second: BRonto Spritesheet copy_13
+  - first:
+      213: 21300028
+    second: BRonto Spritesheet copy_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: left forearm back
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 915
+        width: 304
+        height: 720
+      alignment: 9
+      pivot: {x: 0.8354441, y: 0.060577903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b4516d6a314eb1815f3eab66e63b9
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left forearm front
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 939
+        width: 239
+        height: 726
+      alignment: 9
+      pivot: {x: 0.80632985, y: 0.057006415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e0b6b7e1b7e4fd49972c456b8adc52
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right upperarm
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1381
+        width: 584
+        height: 225
+      alignment: 9
+      pivot: {x: 0.06570194, y: 0.5348633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f00e892126a4f19a566d9ccab70592
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bronto boddo
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 935
+        width: 380
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56d337d6b76a4fa9b4bafd601e5ac26
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bronto noggin
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1099
+        width: 427
+        height: 555
+      alignment: 9
+      pivot: {x: 0.46325883, y: 0.057142545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103cdf09de624746b9bdb99753d393e
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left upperarm
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1013
+        width: 570
+        height: 301
+      alignment: 9
+      pivot: {x: 0.90367943, y: 0.7866661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6f3c41070724572812d167db3d6482
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Calf
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 46
+        width: 488
+        height: 762
+      alignment: 9
+      pivot: {x: 0.46785155, y: 0.92206484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223e0ee6415d64911a98633442c6d423
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right calf
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 48
+        width: 482
+        height: 778
+      alignment: 9
+      pivot: {x: 0.38607952, y: 0.91338485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c90d92ef869c433eb5ea79c703490b1
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left thigh
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 251
+        width: 258
+        height: 611
+      alignment: 9
+      pivot: {x: 0.52026933, y: 0.90226805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b107350b5f65e404c8b9e633a4f6c77c
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right thigh
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 272
+        width: 248
+        height: 575
+      alignment: 9
+      pivot: {x: 0.41565335, y: 0.9001693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5a5967eabd44c3199f80b3ce30b4b7
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right forearm front
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 239
+        width: 263
+        height: 641
+      alignment: 9
+      pivot: {x: 0.6391875, y: 0.93239117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b171a93e8b745148279ea32493d407
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right forearm back
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 239
+        width: 289
+        height: 627
+      alignment: 9
+      pivot: {x: 0.68999887, y: 0.9253648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a569475fbf44e6a8ef42722faab5b0
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 24999c5113a264903a3be195ef6a8524
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

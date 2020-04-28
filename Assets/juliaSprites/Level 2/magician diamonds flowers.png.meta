@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 9081e53e16f06434fbdce3caac653428
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8624927508509652438
+    second: magician diamonds flowers_0
+  - first:
+      213: -2524811260664166395
+    second: magician diamonds flowers_1
+  - first:
+      213: -8162919235750381670
+    second: magician diamonds flowers_2
+  - first:
+      213: 1855675410679447618
+    second: magician diamonds flowers_3
+  - first:
+      213: 2171094016211829952
+    second: magician diamonds flowers_4
+  - first:
+      213: -663518134896250237
+    second: magician diamonds flowers_5
+  - first:
+      213: 6867647254048346212
+    second: magician diamonds flowers_6
+  - first:
+      213: 8516346916405651430
+    second: magician diamonds flowers_7
+  - first:
+      213: -1615390965451262066
+    second: magician diamonds flowers_8
+  - first:
+      213: 3837122695613860874
+    second: magician diamonds flowers_9
+  - first:
+      213: -3018523616009886496
+    second: magician diamonds flowers_10
+  - first:
+      213: 5140000359302109893
+    second: magician diamonds flowers_11
+  - first:
+      213: -854505301479783127
+    second: magician diamonds flowers_12
+  - first:
+      213: -9116029237986123864
+    second: magician diamonds flowers_13
+  - first:
+      213: -3186852933699708789
+    second: magician diamonds flowers_14
+  - first:
+      213: 6900711551899185694
+    second: magician diamonds flowers_15
+  - first:
+      213: 1638257007419128474
+    second: magician diamonds flowers_16
+  - first:
+      213: 2484926172134836401
+    second: magician diamonds flowers_17
+  - first:
+      213: -6528605771547089828
+    second: magician diamonds flowers_18
+  - first:
+      213: -408367777051638074
+    second: magician diamonds flowers_19
+  - first:
+      213: -6038360688049505510
+    second: magician diamonds flowers_20
+  - first:
+      213: 1496852039606366183
+    second: magician diamonds flowers_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magician diamonds flowers_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1708
+        width: 192
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4814e1d154d5d47d1bd73fc542e9c126
+      internalID: -8624927508509652438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1697
+        width: 203
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d07e1dd01b4863a6020d0be6ecb7e
+      internalID: -2524811260664166395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1731
+        width: 192
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddef0b7c3101415a83da96b2b00bbf1
+      internalID: -8162919235750381670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1791
+        width: 184
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3cf9ac09a4648a6932ca6d8b2961e0
+      internalID: 1855675410679447618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_4
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1802
+        width: 139
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f169225dc4c9546188bbf0eebee211e7
+      internalID: 2171094016211829952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_5
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1828
+        width: 158
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8da2c26d49c4ac6884d0bc183abadd
+      internalID: -663518134896250237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_6
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1990
+        width: 120
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8109bd8268348c5bbba6a836a3175b
+      internalID: 6867647254048346212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_7
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1956
+        width: 90
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ddc0cdd8d1d4766b0b1209e09da6f5
+      internalID: 8516346916405651430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_8
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1967
+        width: 109
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997f8e6cf263e4bb1a28abd528126597
+      internalID: -1615390965451262066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_9
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1973
+        width: 124
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce3b219970004d21ba855162771c0fc
+      internalID: 3837122695613860874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_10
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1716
+        width: 150
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f084896c0e403c8de0634000d069c
+      internalID: -3018523616009886496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_11
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1411
+        width: 156
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d3e1fcfb6cb470496133a8f1943491
+      internalID: 5140000359302109893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_12
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1293
+        width: 176
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493601bfef7d54b82b3bf2a9c1d124b8
+      internalID: -854505301479783127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_13
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1356
+        width: 174
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848a7d4878a6d442693cdaa17df62e10
+      internalID: -9116029237986123864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_14
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1212
+        width: 131
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd603b2c215fc44eab38711ca158e548
+      internalID: -3186852933699708789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_15
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1223
+        width: 145
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498989e0777b248ffa325744f072b30c
+      internalID: 6900711551899185694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_16
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1212
+        width: 135
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264ee440aa7cd4e3aa4505a3dd2cdfd1
+      internalID: 1638257007419128474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_17
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1241
+        width: 173
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4399726c1e7a54127a3ffab15e1fec9f
+      internalID: 2484926172134836401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_18
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1222
+        width: 188
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebdac1a20c1f4870b41f66b78c4ffd3
+      internalID: -6528605771547089828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_19
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 149
+        width: 845
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38db0b59e71341af950e34f7e8e5bfa
+      internalID: -408367777051638074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 119
+        width: 525
+        height: 991
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a64a548ebbb04321a3698a0b60eadba
+      internalID: -6038360688049505510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magician diamonds flowers_21
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 488
+        width: 1228
+        height: 1847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a554cc0b1fd469f83b4037c84ca577
+      internalID: 1496852039606366183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

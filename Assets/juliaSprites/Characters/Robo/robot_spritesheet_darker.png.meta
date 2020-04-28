@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: 15bc61d1558f445e08c1ea0017399060
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: robot_spritesheet_darker_0
+  - first:
+      213: 21300002
+    second: robot_spritesheet_darker_1
+  - first:
+      213: 21300004
+    second: robot_spritesheet_darker_2
+  - first:
+      213: 21300006
+    second: robot_spritesheet_darker_3
+  - first:
+      213: 21300008
+    second: robot_spritesheet_darker_4
+  - first:
+      213: 21300010
+    second: robot_spritesheet_darker_5
+  - first:
+      213: 21300012
+    second: robot_spritesheet_darker_6
+  - first:
+      213: 21300014
+    second: robot_spritesheet_darker_7
+  - first:
+      213: 21300016
+    second: robot_spritesheet_darker_8
+  - first:
+      213: 21300018
+    second: robot_spritesheet_darker_9
+  - first:
+      213: 21300020
+    second: robot_spritesheet_darker_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2391
+        width: 514
+        height: 842
+      alignment: 9
+      pivot: {x: 0.7060796, y: 0.25438756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9709769763ab445e78f1bee37dcca072
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_1
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2563
+        width: 363
+        height: 681
+      alignment: 9
+      pivot: {x: 0.30546415, y: 0.7888657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe244f36951e487691428184533ee25
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2568
+        width: 535
+        height: 671
+      alignment: 9
+      pivot: {x: 0.22658463, y: 0.7931707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b504ae3ab44447596cbf6ee1e58891
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_3
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 2401
+        width: 661
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9446a6e62d96a4fc193c1aacad59894b
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_4
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1907
+        width: 656
+        height: 393
+      alignment: 9
+      pivot: {x: 0.22319272, y: 0.70535517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9686a28cdd71a4b4ea1dfcc5c783365c
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2083
+        width: 716
+        height: 343
+      alignment: 9
+      pivot: {x: 0.15480706, y: 0.47058854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feedf36be3eb24dcea2a2ce88e55ae12
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2043
+        width: 393
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7021fc1423e94daeb45841b83e421cd
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1004
+        width: 449
+        height: 787
+      alignment: 9
+      pivot: {x: 0.52246803, y: 0.82046014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e052b2caa38c945d5871394f69b585ce
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 989
+        width: 414
+        height: 802
+      alignment: 9
+      pivot: {x: 0.4268983, y: 0.8584917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795e245d73b374090abe98730cbcf3a6
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_9
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 959
+        width: 278
+        height: 887
+      alignment: 9
+      pivot: {x: 0.53628784, y: 0.84119797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08acd1040329341d1801601b1495eed9
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_spritesheet_darker_10
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 964
+        width: 257
+        height: 882
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.8259756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64763b6a66284dadbbd3ae38378e803
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8dbc757f576054568a2f0f015b1b0b3a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
