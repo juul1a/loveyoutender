@@ -38,7 +38,7 @@ public abstract class Enemy : MonoBehaviour {
 		}
 	}
 
-	protected void Flip(){
+	public void Flip(){
 		//Debug.Log("Flipped");
 		transform.Rotate(0f, 180f, 0f);
 		direction = direction * -1;

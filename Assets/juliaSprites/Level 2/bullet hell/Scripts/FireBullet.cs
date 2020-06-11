@@ -91,6 +91,9 @@ public class FireBullet : MonoBehaviour
     //Each array of bullets has a parent object that they are attached to. This is to make organization and rotation easier
     private List<GameObject> bulletArrayObjs;
 
+    //Reference to the enemy this is attached to
+    private Enemy bulletBoss;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -112,6 +115,8 @@ public class FireBullet : MonoBehaviour
         //Creates a list to store the array objects as they are created
         bulletArrayObjs = new List<GameObject>();
 
+        bulletBoss = gameObject.GetComponentInParent<Enemy>();
+
         //We recursivley call the Fire function because we want to be able to change the rate at which it fires live
         Invoke("Fire", 0f);
     }
@@ -122,7 +127,7 @@ public class FireBullet : MonoBehaviour
             CheckPresets();
         }
         //Self evident
-        if(rotate){
+        if(rotate && !bulletBoss.isDead()){
             Rotate();
         }
     }
@@ -136,67 +141,69 @@ public class FireBullet : MonoBehaviour
 
     //The mother function
     private void Fire(){
-        if(fireRate != 0){ //This is to prevent the function from creating a heck ton of bullets ll at once and crashing the game/unity
-            
-            float thisArrayOffset = 0; //Angle offset between each array
-            
-            //Looping through each array first
-            for(int j = 0; j<bulletArrays; j++){
-                //This is where the gameobject to store the bullets in an array are created
-                //It will only create a game object for the array if it hasn't been created yet
-                //Unfortunately it doesn't destroy the game object if you decrease the number of arrays.
-                //So like if you have 3 arrays there will be 3 array gameobjects created but then if you decrease down to 2
-                //arrays there will still be 3 objects, the 3rd will just sit unused. And if you increase again to 3 it'll reuse
-                //that 3rd object. 
-                if(bulletArrayObjs.Count < j+1){
-                    GameObject bullArrayHolder = new GameObject("Array "+j);
-                    bulletArrayObjs.Add(bullArrayHolder);
+        if(!bulletBoss.isDead()){
+            if(fireRate != 0){ //This is to prevent the function from creating a heck ton of bullets ll at once and crashing the game/unity
+                
+                float thisArrayOffset = 0; //Angle offset between each array
+                
+                //Looping through each array first
+                for(int j = 0; j<bulletArrays; j++){
+                    //This is where the gameobject to store the bullets in an array are created
+                    //It will only create a game object for the array if it hasn't been created yet
+                    //Unfortunately it doesn't destroy the game object if you decrease the number of arrays.
+                    //So like if you have 3 arrays there will be 3 array gameobjects created but then if you decrease down to 2
+                    //arrays there will still be 3 objects, the 3rd will just sit unused. And if you increase again to 3 it'll reuse
+                    //that 3rd object. 
+                    if(bulletArrayObjs.Count < j+1){
+                        GameObject bullArrayHolder = new GameObject("Array "+j);
+                        bulletArrayObjs.Add(bullArrayHolder);
+                    }
+                    //Calculates the step angle between each bullet in an array. Divides the total angle by the number of bullets in the array
+                    float angleStep = (endAngle - startAngle) / (bulletArray-1);
+                    //Starting with the start angle, and offset by the distance between each array. For the first array the offset is 0
+                    //But for every subsequent array the offset is increased by the value of arrayOffset
+                    float angle = startAngle + thisArrayOffset;
+
+                    //Now we spawn bullets. We loop through this function once for every bullet in the array.
+                    for(int i = 0; i<bulletArray; i++){
+                        //note to self: * pi / 180 is how you convert to radians
+
+                        //Calculates the x and y coordinates of the direction for the bullet to move at the correct angle
+                        float bulDirX = transform.position.x + Mathf.Cos((angle * Mathf.PI)/180f); 
+                        float bulDirY = transform.position.y + Mathf.Sin((angle * Mathf.PI)/180f);
+
+                        //Creates the bullet direction vector and normalizes it
+                        Vector3 bulMoveVector = new Vector3(bulDirX, bulDirY, 0f);
+                        Vector2 bulDir = (bulMoveVector-transform.position).normalized;
+
+                        //Creates or activates the bullet object from the Bullet Pool. Basically this either gets a deactivated bullet
+                        //or it creates a new bullet gameobject, depending on the availability in the pool.
+                        GameObject bul = BulletPool.bulletPoolInstance.GetBullet();
+                        //Puts the bullet at the origin of the shooter, set to the default rotation and position
+                        bul.transform.position = transform.position;
+                        bul.transform.rotation = transform.rotation;
+                        //This rotates the sprite to face the direction of the angle it is being shot at
+                        //The sprite is contained in a child objecct of the bullet prefab.
+                        bul.transform.GetChild(0).transform.rotation = transform.rotation * Quaternion.Euler(0,0,angle);
+                        //Activates the bullet that was grabbed from the pool
+                        bul.SetActive(true); 
+                        //Sets the direction for the bullet to move. In the update function of the BulletScript the bullet is constantly
+                        //being Translated in the supplied direction, so this just sets the direction of which the bullet will translate.
+                        bul.GetComponent<BulletScript>().SetMoveDirection(bulDir);
+
+                        //This puts the bullet in the game object for this array so we can keep them orgnized neat and tidy
+                        bul.transform.SetParent(bulletArrayObjs[j].transform);
+
+                        //We add the angle step for the next bullet to spawn within the array
+                        angle += angleStep;
+                    }
+                    //We add the array offset between two arrays and start firing the next array
+                    thisArrayOffset += arrayOffset;
                 }
-                //Calculates the step angle between each bullet in an array. Divides the total angle by the number of bullets in the array
-                float angleStep = (endAngle - startAngle) / (bulletArray-1);
-                //Starting with the start angle, and offset by the distance between each array. For the first array the offset is 0
-                //But for every subsequent array the offset is increased by the value of arrayOffset
-                float angle = startAngle + thisArrayOffset;
-
-                //Now we spawn bullets. We loop through this function once for every bullet in the array.
-                for(int i = 0; i<bulletArray; i++){
-                    //note to self: * pi / 180 is how you convert to radians
-
-                    //Calculates the x and y coordinates of the direction for the bullet to move at the correct angle
-                    float bulDirX = transform.position.x + Mathf.Cos((angle * Mathf.PI)/180f); 
-                    float bulDirY = transform.position.y + Mathf.Sin((angle * Mathf.PI)/180f);
-
-                    //Creates the bullet direction vector and normalizes it
-                    Vector3 bulMoveVector = new Vector3(bulDirX, bulDirY, 0f);
-                    Vector2 bulDir = (bulMoveVector-transform.position).normalized;
-
-                    //Creates or activates the bullet object from the Bullet Pool. Basically this either gets a deactivated bullet
-                    //or it creates a new bullet gameobject, depending on the availability in the pool.
-                    GameObject bul = BulletPool.bulletPoolInstance.GetBullet();
-                    //Puts the bullet at the origin of the shooter, set to the default rotation and position
-                    bul.transform.position = transform.position;
-                    bul.transform.rotation = transform.rotation;
-                    //This rotates the sprite to face the direction of the angle it is being shot at
-                    //The sprite is contained in a child objecct of the bullet prefab.
-                    bul.transform.GetChild(0).transform.rotation = transform.rotation * Quaternion.Euler(0,0,angle);
-                    //Activates the bullet that was grabbed from the pool
-                    bul.SetActive(true); 
-                    //Sets the direction for the bullet to move. In the update function of the BulletScript the bullet is constantly
-                    //being Translated in the supplied direction, so this just sets the direction of which the bullet will translate.
-                    bul.GetComponent<BulletScript>().SetMoveDirection(bulDir);
-
-                    //This puts the bullet in the game object for this array so we can keep them orgnized neat and tidy
-                    bul.transform.SetParent(bulletArrayObjs[j].transform);
-
-                    //We add the angle step for the next bullet to spawn within the array
-                    angle += angleStep;
-                }
-                //We add the array offset between two arrays and start firing the next array
-                thisArrayOffset += arrayOffset;
             }
+                //Recursively calls this function again, after fireRate seconds pass. 
+                Invoke("Fire", fireRate);
         }
-            //Recursively calls this function again, after fireRate seconds pass. 
-            Invoke("Fire", fireRate);
     }
 
     //This function is called every Update() if there are any items in the presets array

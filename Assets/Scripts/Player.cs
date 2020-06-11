@@ -150,7 +150,12 @@ public class Player : MonoBehaviour {
 		anim.SetTrigger("Die");
 		dead = true;
 		stateManager.SetState(StateManager.State.Lose);
+		Debug.Log("You Lose!");
 		//do game over thing
+	}
+
+	public bool isDead(){
+		return dead;
 	}
 
 	private bool IsGrounded(){
@@ -192,8 +197,12 @@ public class Player : MonoBehaviour {
 		stateManager.SetState(StateManager.State.Lose);
 	}
 
-	void WinTheGame(){
-		stateManager.SetState(StateManager.State.Win);
+	public void WinTheGame(){
+		if(stateManager.GetState() != StateManager.State.Win){
+			anim.SetFloat ("Speed", 0.0f);
+			stateManager.SetState(StateManager.State.Win);
+			Debug.Log("You win!");
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D triggerEntered){

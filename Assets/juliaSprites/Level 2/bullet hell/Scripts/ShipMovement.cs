@@ -44,6 +44,8 @@ public class ShipMovement : MonoBehaviour
     public bool moveRight = true;
     //Tracks if the bullet boss is moving or not
     public bool stopped = false;
+    //Parent Enemy class
+    private Enemy bulletBoss;
 
 
     void Start(){
@@ -61,6 +63,8 @@ public class ShipMovement : MonoBehaviour
         if(anim){
             anim.SetBool("MoveRight", moveRight);
         }
+
+        bulletBoss = gameObject.GetComponent<Enemy>();
     }
 
     //Stops the movement of the bullet boss for a specified time
@@ -112,13 +116,15 @@ public class ShipMovement : MonoBehaviour
     
     void Update()
     {
-        //Call movement function if not stopped
-        if(!stopped){
-            MoveLeftRight();
-        }
-        //If it is stopped and not a manual stop, continue the countdown in the StopForTime function
-        else if(!manualStop){
-            StopForTime();
+        if(!bulletBoss.isDead()){
+            //Call movement function if not stopped
+            if(!stopped){
+                MoveLeftRight();
+            }
+            //If it is stopped and not a manual stop, continue the countdown in the StopForTime function
+            else if(!manualStop){
+                StopForTime();
+            }
         }
        
     }

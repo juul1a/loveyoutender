@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 5ce16413237634822b7988772a8a794e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2414073602781939528
+    second: BRonto Spritesheet bnw_0
+  - first:
+      213: -4450591047148643430
+    second: BRonto Spritesheet bnw_1
+  - first:
+      213: -8462797948972527477
+    second: BRonto Spritesheet bnw_2
+  - first:
+      213: -3945356505937594787
+    second: BRonto Spritesheet bnw_3
+  - first:
+      213: -3544882304259098294
+    second: BRonto Spritesheet bnw_4
+  - first:
+      213: 492657012480173257
+    second: BRonto Spritesheet bnw_5
+  - first:
+      213: 1433320779972317643
+    second: BRonto Spritesheet bnw_6
+  - first:
+      213: 4620132876676165783
+    second: BRonto Spritesheet bnw_7
+  - first:
+      213: -847513848527497824
+    second: BRonto Spritesheet bnw_9
+  - first:
+      213: 6135312321624728937
+    second: BRonto Spritesheet bnw_10
+  - first:
+      213: -2724171196001515705
+    second: BRonto Spritesheet bnw_11
+  - first:
+      213: -6357862547436816912
+    second: BRonto Spritesheet bnw_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 915
+        width: 302
+        height: 718
+      alignment: 9
+      pivot: {x: 0.8389061, y: 0.05735069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64abd28e77b343a8a88b6e3eedba624
+      internalID: 2414073602781939528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 939
+        width: 239
+        height: 726
+      alignment: 9
+      pivot: {x: 0.78173774, y: 0.04367864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d731fc4eaaa2343719581492ffb7e573
+      internalID: -4450591047148643430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1383
+        width: 582
+        height: 223
+      alignment: 9
+      pivot: {x: 0.13440004, y: 0.4879227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa74568c02e8f40a4b12184dea18d88a
+      internalID: -8462797948972527477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_3
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 935
+        width: 380
+        height: 670
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97e8c817521344198d87184f6d3129e
+      internalID: -3945356505937594787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_4
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1101
+        width: 426
+        height: 551
+      alignment: 9
+      pivot: {x: 0.49367812, y: 0.08450146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4dcc640e6c94c5a9060292e2d8e739
+      internalID: -3544882304259098294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_5
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1016
+        width: 568
+        height: 297
+      alignment: 9
+      pivot: {x: 0.812967, y: 0.63603157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c66f6754d0d4238bea0ddfd2c1d8b6
+      internalID: 492657012480173257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 46
+        width: 486
+        height: 761
+      alignment: 9
+      pivot: {x: 0.48337418, y: 0.9247165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8c5d675ce3481fabcc61c65838a91
+      internalID: 1433320779972317643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 50
+        width: 482
+        height: 777
+      alignment: 9
+      pivot: {x: 0.4273564, y: 0.90557146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19080766e36f48528d63c8f7da0ddd3
+      internalID: 4620132876676165783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_9
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 251
+        width: 255
+        height: 611
+      alignment: 9
+      pivot: {x: 0.50000095, y: 0.8879217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf08cebfa5897432ea136d13354e0590
+      internalID: -847513848527497824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_10
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 273
+        width: 245
+        height: 574
+      alignment: 9
+      pivot: {x: 0.4670201, y: 0.88477296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e5d67c1269747cab09bb7be0d0075f
+      internalID: 6135312321624728937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_11
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 241
+        width: 259
+        height: 638
+      alignment: 9
+      pivot: {x: 0.6559903, y: 0.8926131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cb50072183a4200bc26b860e3952d0
+      internalID: -2724171196001515705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRonto Spritesheet bnw_12
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 239
+        width: 289
+        height: 626
+      alignment: 9
+      pivot: {x: 0.70503587, y: 0.8915342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47aa2f483a20b4984a4ac1d97411a251
+      internalID: -6357862547436816912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

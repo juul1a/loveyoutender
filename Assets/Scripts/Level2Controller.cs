@@ -10,6 +10,9 @@ public class Level2Controller : MonoBehaviour
     [SerializeField]
     private GameObject bulletBoss;
     private GameObject thisBoss;
+    private Enemy thisBossEnemy;
+    [SerializeField]
+    private Player player;
 
     void Awake(){
         enemySpawner = enemySpawnObj.GetComponent<EnemySpawner>();
@@ -27,6 +30,10 @@ public class Level2Controller : MonoBehaviour
             GameObject boss = Instantiate(bulletBoss);
             bulletBoss.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
             thisBoss = boss;
+            thisBossEnemy = thisBoss.GetComponent<Enemy>();
+        }
+        if(thisBoss != null && thisBossEnemy.isDead()){
+            player.WinTheGame();
         }
     }
 }

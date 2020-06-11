@@ -24,13 +24,19 @@ public class EnemySpawner : MonoBehaviour
     public int enemiesSpawned = 0;
     public bool allEnemiesDead = false;
 
+    public Player player;
+
     void Awake(){
         cam = gameObject.GetComponentInParent<Camera>();
-        camBottomLeft = cam.ViewportToWorldPoint(new Vector3(1,0,0));
+        camBottomLeft = cam.ViewportToWorldPoint(new Vector3(0,0,0));
         camTopRight = cam.ViewportToWorldPoint(new Vector3(1,1,0));
         minSpawnX = camBottomLeft.x;
         maxSpawnX = camTopRight.x;
     }
+
+    // void Start(){
+    //     ManualStart();
+    // }
 
     public void ManualStart()
     {
@@ -44,10 +50,10 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetMaxAndMin();
+        //SetMaxAndMin();
         //Start polling to see when all enemies are dead, but we only need to 
         //check after all of the enemies have been spawned
-        if(enemiesSpawned == totalEnemies){
+        // if(enemiesSpawned == totalEnemies){
             if(deadEnemies.Count < totalEnemies){
                 foreach(GameObject enemyObj in spawnedEnemies){
                     if(enemyObj.GetComponent<Enemy>().isDead()){
@@ -62,7 +68,7 @@ public class EnemySpawner : MonoBehaviour
             else{
                 allEnemiesDead = true;
             }
-        }
+        // }
     }
 
     void SetMaxAndMin(){
@@ -73,19 +79,24 @@ public class EnemySpawner : MonoBehaviour
     }
 
     void SpawnEnemy(){
-        if(spawnedEnemies.Count < maxEnemies && enemiesSpawned < totalEnemies){
-            int index = Random.Range (0, enemies.Length);
-            GameObject enemy = enemies[index];
-            float xPos = Random.Range(minSpawnX, maxSpawnX);
-            GameObject newEnemy = Instantiate(enemy);
-            if(newEnemy.GetComponent<FlyingEnemy>()){
-                newEnemy.transform.position = new Vector3(xPos, newEnemy.transform.position.y, gameObject.transform.position.z);
+        if(!player.isDead()){
+            if(spawnedEnemies.Count < maxEnemies && enemiesSpawned < totalEnemies){
+                int index = Random.Range (0, enemies.Length);
+                GameObject enemy = enemies[index];
+                float xPos = Random.Range(minSpawnX, maxSpawnX);
+                GameObject newEnemy = Instantiate(enemy);
+                if(newEnemy.GetComponent<FlyingEnemy>()){
+                    newEnemy.transform.position = new Vector3(xPos, newEnemy.transform.position.y, gameObject.transform.position.z);
+                }
+                else{
+                newEnemy.transform.position = new Vector3(xPos, gameObject.transform.position.y, gameObject.transform.position.z);
+                }
+                // if(Random.Range(0,2) == 0){
+                //     newEnemy.GetComponent<Enemy>().Flip();
+                // }
+                spawnedEnemies.Add(newEnemy);
+                enemiesSpawned++;
             }
-            else{
-               newEnemy.transform.position = new Vector3(xPos, gameObject.transform.position.y, gameObject.transform.position.z);
-            }
-            spawnedEnemies.Add(newEnemy);
-            enemiesSpawned++;
         }
     }
 }

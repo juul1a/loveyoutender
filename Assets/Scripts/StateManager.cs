@@ -27,7 +27,9 @@ public class StateManager : MonoBehaviour
         loseScreen = menuCanvas.transform.Find("Lose Screen").gameObject;
         HUD = menuCanvas.transform.Find("HUD").gameObject;
         menuCanvas.SetActive(true);
-        startScreen.SetActive(true);
+        if(startScreen){
+            startScreen.SetActive(true);
+        }
         winScreen.SetActive(false);
         loseScreen.SetActive(false);
         HUD.SetActive(false);
@@ -47,7 +49,9 @@ public class StateManager : MonoBehaviour
     }
 
     public void SetState(State state){
+            Debug.Log("Setting state to "+state);
             currentState = state;
+            // DoState(currentState);
     }
     
     // Update is called once per frame
@@ -115,5 +119,9 @@ public class StateManager : MonoBehaviour
 
     public void Quit(){
         Application.Quit();
+    }
+
+    public void NextLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

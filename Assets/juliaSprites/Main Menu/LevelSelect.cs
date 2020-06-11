@@ -7,6 +7,7 @@ public class LevelSelect : MonoBehaviour
     public Button[] LevelButtons;
 
     void Start(){
+        //playerPrefs in library/preferences
         int levelReached = PlayerPrefs.GetInt("levelReached", 1);
         LevelButtons = gameObject.GetComponentsInChildren<Button>();
         for (int i = 0 ; i < LevelButtons.Length; i++)

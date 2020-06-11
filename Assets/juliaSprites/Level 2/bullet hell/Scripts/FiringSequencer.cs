@@ -38,6 +38,8 @@ public class FiringSequencer : MonoBehaviour
     //Contains the step we are currently on, which is the index value of the steps[] array
     private int stepNum;
 
+    private Enemy bulletBoss;
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,30 +47,33 @@ public class FiringSequencer : MonoBehaviour
         stepNum = 0;
         fireScript = GetComponentsInChildren<FireBullet>()[0]; //Gets the firebullet script associated with this enemy gameobject
         movementScript = gameObject.GetComponent<ShipMovement>(); //Gets the shipmovement script associated with this enemy gameobject
+        bulletBoss = gameObject.GetComponent<Enemy>();
 
         Invoke("RunStep", 0f);//Invokes the recursive RunStep function immediately
     }
     
     void RunStep(){
-        fireScript.SetPreset(steps[stepNum].preset); // First sets the firing preset according to the current StepNum
-        //Movement of enemy class is preprogrammed in ShipMovement to go left and right, so this just turns movement "on" or "off"
-        //which is move back and forth left and right, and stop moving, respectively.
-        if(steps[stepNum].movement == false){
-            movementScript.ManualStop(); //Turns off movement of enemy 
-        }
-        else{
-            movementScript.ManualStart(); //Turns on movement of enemy
-        }
-        if(stepNum + 1 == steps.Length){ 
-            //If this is the last step in the array then reset the Stepnum to 0
-            //Since we set the stepnum before we invoke the recursive function we have to invoke if based on the value it was previously 
-            stepNum = 0;
-            Invoke("RunStep", steps[steps.Length-1].duration);
-        }
-        else{
-            // Increase the step number, but then invoke it for the step we were just on.
-            stepNum++;
-            Invoke("RunStep", steps[stepNum-1].duration);
+        if(!bulletBoss.isDead()){
+             fireScript.SetPreset(steps[stepNum].preset); // First sets the firing preset according to the current StepNum
+            //Movement of enemy class is preprogrammed in ShipMovement to go left and right, so this just turns movement "on" or "off"
+            //which is move back and forth left and right, and stop moving, respectively.
+            if(steps[stepNum].movement == false){
+                movementScript.ManualStop(); //Turns off movement of enemy 
+            }
+            else{
+                movementScript.ManualStart(); //Turns on movement of enemy
+            }
+            if(stepNum + 1 == steps.Length){ 
+                //If this is the last step in the array then reset the Stepnum to 0
+                //Since we set the stepnum before we invoke the recursive function we have to invoke if based on the value it was previously 
+                stepNum = 0;
+                Invoke("RunStep", steps[steps.Length-1].duration);
+            }
+            else{
+                // Increase the step number, but then invoke it for the step we were just on.
+                stepNum++;
+                Invoke("RunStep", steps[stepNum-1].duration);
+            }
         }
     }
 }
