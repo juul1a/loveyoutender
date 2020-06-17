@@ -23,7 +23,7 @@ public class StateManager : MonoBehaviour
         if(startScreen == null){
             currentState = State.Playing;
         }
-        winScreen = menuCanvas.transform.Find("Win Screen").gameObject;
+        winScreen = menuCanvas.transform.Find("Nice").gameObject;
         loseScreen = menuCanvas.transform.Find("Lose Screen").gameObject;
         HUD = menuCanvas.transform.Find("HUD").gameObject;
         menuCanvas.SetActive(true);
@@ -122,6 +122,7 @@ public class StateManager : MonoBehaviour
     }
 
     public void NextLevel(){
+        Debug.Log("Current Scene = "+SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

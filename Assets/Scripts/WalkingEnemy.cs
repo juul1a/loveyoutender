@@ -131,12 +131,12 @@ public class WalkingEnemy : Enemy {
 		// }
 	}
 
-	override public void TakeDamage(float damageTaken) {
-		health -= damageTaken;
-		if(!dead && health <= 0){
-			Die();
-		}
-	}
+	// override public void TakeDamage(float damageTaken) {
+	// 	health -= damageTaken;
+	// 	if(!dead && health <= 0){
+	// 		Die();
+	// 	}
+	// }
 
 	override public void Die(){
 		anim.SetTrigger("Die");

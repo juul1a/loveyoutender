@@ -66,6 +66,7 @@ public class HealthVisual : MonoBehaviour
     void Update(){
         health = player.GetHealth();
         if(health != prevHealth){
+            Debug.Log("Updating visual, health is "+health+" and prevHealth is "+prevHealth);
             UpdateVisual();
         }
         prevHealth = health;
