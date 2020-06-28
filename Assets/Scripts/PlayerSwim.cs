@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSwim : MonoBehaviour
+public class PlayerSwim : Player
 {
     private Rigidbody2D rb;
     [SerializeField]
     private float swimForce = 2.0f;
     private bool dead = false;
     [SerializeField]
-    private float maxSpeed;
+    private float maxVerticalSpeed;
 
 
     // Start is called before the first frame update
@@ -33,11 +33,12 @@ public class PlayerSwim : MonoBehaviour
                 {
                     rb.simulated = true;
                 }
-                Debug.Log("Velocity = "+rb.velocity.y);
-                if(rb.velocity.y < maxSpeed){
+                if(rb.velocity.y < maxVerticalSpeed){
                     rb.AddForce(new Vector3(0,1,0) * swimForce);
                 }
 			}
+            float horizontal = Input.GetAxis ("Horizontal");
+            rb.velocity = new Vector2(horizontal*movementSpeed, rb.velocity.y); // x = -1, y = 0
 		}
 	}
 }
