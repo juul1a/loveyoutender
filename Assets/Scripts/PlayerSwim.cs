@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSwim : Player
+public class PlayerSwim : MonoBehaviour
 {
     private Rigidbody2D rb;
     [SerializeField]
     private float swimForce = 2.0f;
     private bool dead = false;
     [SerializeField]
-    private float maxVerticalSpeed;
+    private float maxVerticalSpeed, movementSpeed;
 
 
     // Start is called before the first frame update
