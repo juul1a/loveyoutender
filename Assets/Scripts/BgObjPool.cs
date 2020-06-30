@@ -18,7 +18,6 @@ public class BgObjPool : MonoBehaviour
     //Public function that returns the reference to a bullet object - either newly created, or previously used but inactive.
     //We recycle bullets here
     public GameObject GetPooledObj(GameObject thisPrefab){
-        Debug.Log("Hello");
         if(objs.Count > 0){
             //Goes through all bulets in the list
             for(int i = 0; i < objs.Count; i++){
@@ -35,7 +34,6 @@ public class BgObjPool : MonoBehaviour
         GameObject newObj = Instantiate(thisPrefab);
         newObj.SetActive(false);
         objs.Add(newObj);
-        Debug.Log("created new obj");
         return newObj;
     }
     

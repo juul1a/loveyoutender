@@ -60,7 +60,6 @@ public class LevelGenV2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("dist between player and farthest = "+ Vector3.Distance(player.transform.position, latestEndPos));
         if(Vector3.Distance(player.transform.position, latestEndPos)<playerGenDist){
             SpawnNewObj();
             SpawnNewObj();
@@ -75,7 +74,6 @@ public class LevelGenV2 : MonoBehaviour
         float setY = Random.Range(latestEndPos.y, latestEndPos.y+maxDistBtwnObjs);
         int k = Random.Range (0, bgObjs.Length-1);//determines which prefab to use
         GameObject bgObjectPrefab = bgObjs[k];
-        Debug.Log("prefab we got is "+bgObjectPrefab.name);
         GameObject newBgObj = BgObjPool.bgPoolInstance.GetPooledObj(bgObjectPrefab);
         newBgObj.transform.SetParent(activeObjsParent.transform, true);
         newBgObj.transform.position = new Vector3(setX, setY, newBgObj.transform.position.z);
@@ -99,7 +97,6 @@ public class LevelGenV2 : MonoBehaviour
     void DeactivateOld(){
         Transform[] activeObjs = activeObjsParent.GetComponentsInChildren<Transform>();
         for(int i = 1; i < activeObjs.Length; i++){
-            Debug.Log("Dist between player and active obj "+activeObjs[i].gameObject.name+ " is "+Vector3.Distance(player.transform.position, activeObjs[i].position));
             if(Vector3.Distance(player.transform.position, activeObjs[i].position)>playerGenDist*1.5){
                 activeObjs[i].gameObject.SetActive(false);
                 activeObjs[i].SetParent(inActiveObjsParent.transform, true);

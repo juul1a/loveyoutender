@@ -9,14 +9,28 @@ public class PlayerSwim : MonoBehaviour
     private float swimForce = 2.0f;
     private bool dead = false;
     [SerializeField]
-    private float maxVerticalSpeed, movementSpeed;
+    private float maxVerticalSpeed, movementSpeed, rotationSpeed;
+    private Quaternion originalRotation;
+    private Transform spriteHolder;
 
+    private Animator anim;
 
+    private Quaternion leftRot, rightRot;
     // Start is called before the first frame update
     void Awake()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         rb.simulated = false;
+
+        anim = GetComponent<Animator> ();
+		if(anim == null){
+			anim = GetComponentsInChildren<Animator>()[0];
+		}
+        spriteHolder = transform;//.GetChild(0);
+        originalRotation = spriteHolder.rotation;
+
+        leftRot = Quaternion.Euler(0, 0, 45);
+        rightRot = Quaternion.Euler(0, 0, -45);
     }
 
     // Update is called once per frame
@@ -34,11 +48,21 @@ public class PlayerSwim : MonoBehaviour
                     rb.simulated = true;
                 }
                 if(rb.velocity.y < maxVerticalSpeed){
-                    rb.AddForce(new Vector3(0,1,0) * swimForce);
+                    rb.AddRelativeForce(Vector3.up * swimForce);
+                    anim.SetTrigger("Swim");
                 }
 			}
-            float horizontal = Input.GetAxis ("Horizontal");
-            rb.velocity = new Vector2(horizontal*movementSpeed, rb.velocity.y); // x = -1, y = 0
+            if(Input.GetKey("a")){
+                spriteHolder.rotation = Quaternion.Slerp (spriteHolder.rotation, leftRot, Time.deltaTime * rotationSpeed);
+            }
+            else if(Input.GetKey("d")){
+                spriteHolder.rotation = Quaternion.Slerp (spriteHolder.rotation, rightRot, Time.deltaTime * rotationSpeed);
+            }
+            else{
+                spriteHolder.rotation = Quaternion.Slerp (spriteHolder.rotation, originalRotation, Time.deltaTime*rotationSpeed*2);
+            }
+            // float horizontal = Input.GetAxis ("Horizontal");
+            // rb.velocity = new Vector2(horizontal*movementSpeed, rb.velocity.y); // x = -1, y = 0
 		}
 	}
 }
