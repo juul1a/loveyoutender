@@ -13,9 +13,9 @@ public class LevelGenV2 : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private Camera cam;
     
-    private Vector3 latestEndPos;
+    private Vector3 latestEndPosVert, latestEndPosHoriz;
 
-    // [SerializeField] private bool horizontal, vertical;
+    [SerializeField] private bool horizontal, vertical;
 
     // [Tooltip("Whether or not to (mildly)scale the assets")]
 	// [SerializeField] private bool scalability;
@@ -31,7 +31,7 @@ public class LevelGenV2 : MonoBehaviour
 
 	//All background objects we make
 	// private GameObject[] bgObjsBuilt;
-    private float minSpawnX, maxSpawnX;
+    private float minSpawnX, maxSpawnX, minSpawnY, maxSpawnY;
 
     //All background objects prefabs
 	[SerializeField] private GameObject[] bgObjs;
@@ -41,11 +41,11 @@ public class LevelGenV2 : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        Vector3 camBottomLeft = cam.ViewportToWorldPoint(new Vector3(0,0,0));
-        Vector3 camTopRight = cam.ViewportToWorldPoint(new Vector3(1,1,0));
-        minSpawnX = camBottomLeft.x;
-        maxSpawnX = camTopRight.x;
-        latestEndPos = player.transform.position;
+        SetCamBounds();
+        latestEndPosHoriz = player.transform.position;
+        latestEndPosVert = player.transform.position;
+        // latestEndPosHoriz = player.transform.position;
+        // latestEndPosVert = player.transform.position;
         //Generate a good chunk of level first
         SpawnNewObj();
         SpawnNewObj();
@@ -60,7 +60,16 @@ public class LevelGenV2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(player.transform.position, latestEndPos)<playerGenDist){
+        if(horizontal && Vector3.Distance(player.transform.position, latestEndPosHoriz)<playerGenDist){
+            SetCamBounds();
+            SpawnNewObj(false);
+            SpawnNewObj(false);
+            SpawnNewObj(false);
+            SpawnNewObj(false);
+            DeactivateOld();
+        }
+        if(vertical && Vector3.Distance(player.transform.position, latestEndPosVert)<playerGenDist){
+            SetCamBounds();
             SpawnNewObj();
             SpawnNewObj();
             SpawnNewObj();
@@ -69,16 +78,32 @@ public class LevelGenV2 : MonoBehaviour
         }
     }
 
-    void SpawnNewObj(){
-        float setX = Random.Range(minSpawnX, maxSpawnX);
-        float setY = Random.Range(latestEndPos.y, latestEndPos.y+maxDistBtwnObjs);
+    void SpawnNewObj(bool vert = true){
+        float setX = 0f;
+        float setY = 0f;
+        if(vert){
+            setX = Random.Range(minSpawnX, maxSpawnX);
+            // setY = Random.Range(latestEndPosVert.y, latestEndPosVert.y+maxDistBtwnObjs);
+            setY = Random.Range(latestEndPosVert.y, latestEndPosVert.y+maxDistBtwnObjs);
+        }
+        else if(!vert){
+            setY = Random.Range(minSpawnY, maxSpawnY);
+            // setX = Random.Range(latestEndPosHoriz.x, latestEndPosHoriz.x+maxDistBtwnObjs);
+            setX = Random.Range(latestEndPosHoriz.x, latestEndPosHoriz.x+maxDistBtwnObjs);
+        }
         int k = Random.Range (0, bgObjs.Length-1);//determines which prefab to use
         GameObject bgObjectPrefab = bgObjs[k];
         GameObject newBgObj = BgObjPool.bgPoolInstance.GetPooledObj(bgObjectPrefab);
         newBgObj.transform.SetParent(activeObjsParent.transform, true);
         newBgObj.transform.position = new Vector3(setX, setY, newBgObj.transform.position.z);
         newBgObj.SetActive(true);
-        latestEndPos = newBgObj.transform.position;
+        if(!vert){
+            latestEndPosHoriz = newBgObj.transform.position;
+        }
+        else{
+            latestEndPosVert = newBgObj.transform.position;
+        }
+
         if (rotatability) {
             doSpriteRotation (newBgObj.transform);
         }
@@ -114,6 +139,19 @@ public class LevelGenV2 : MonoBehaviour
 		if (flip == 1) {
 			spriteyBoyTransf.localScale = new Vector3 (((-1) * spriteyBoyTransf.localScale.x), spriteyBoyTransf.localScale.y, spriteyBoyTransf.localScale.z);
 		}
+    }
+
+    void SetCamBounds(){
+        Vector3 camBottomLeft = cam.ViewportToWorldPoint(new Vector3(0,0,0));
+        Vector3 camTopRight = cam.ViewportToWorldPoint(new Vector3(1,1,0));
+        if(vertical){
+            minSpawnX = camBottomLeft.x;
+            maxSpawnX = camTopRight.x;
+        }
+        if(horizontal){
+            minSpawnY = camBottomLeft.y;
+            maxSpawnY = camTopRight.y;
+        }
     }
 
 }

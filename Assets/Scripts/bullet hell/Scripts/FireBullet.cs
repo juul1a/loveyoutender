@@ -141,7 +141,7 @@ public class FireBullet : MonoBehaviour
 
     //The mother function
     private void Fire(){
-        if(!bulletBoss.isDead()){
+        if(bulletBoss == null || !bulletBoss.isDead()){
             if(fireRate != 0){ //This is to prevent the function from creating a heck ton of bullets ll at once and crashing the game/unity
                 
                 float thisArrayOffset = 0; //Angle offset between each array
